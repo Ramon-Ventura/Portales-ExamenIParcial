@@ -27,9 +27,18 @@ html {
   h1{
       text-align: center;
   }
+  .container{
+      margin: 0 auto;
+      display: block;
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
   /*Diseño del menu principal*/
   .bar{
-      background-color: rgb(78, 173, 248);
+      background-color: rgb(202, 42, 29);
   }
   .nav-main{
       padding: 1.25em 0;
@@ -43,11 +52,90 @@ html {
       padding: 1.25em;
   }
   .nav-main a:hover{
-      background-color: blue;
+      background-color: #ff4d4d;
   }
   @media(min-width:768px){
       .nav-main a{
           display: inline;
       }
   }
+  /* Colocar la imagen a la izquierda */
+  .entry {
+    margin-bottom: 3.75em;
+  }
+  .entry:last-of-type {
+    margin-bottom: 0;
+  }
+  .entry img {
+    display: block;
+  }
+    @media (min-width: 768px) {
+        .entry img {
+        width: 18.75em;
+        float: left;
+        margin: 0 1.25em 0 0;
+        }
+    }
+
+  /*Diseñando el menu lateral*/
+  .aside-menu{
+      text-align: center;
+  }
+  .aside-menu ul{
+      list-style-type: none;
+  }
+  .aside-menu ul li{
+      text-align: center;
+      padding: 1.25em;
+  }
+  .aside-menu ul li a{
+      text-decoration: none;
+      color: black;
+  }
+  .aside-menu ul li:hover{
+    background-color: rgb(78, 173, 248);
+  }
+  .aside-menu ul li:hover a{
+    color: whitesmoke;
+  }
+  
+  /*Diseñando Contenedor Central*/
+  @media(min-width:768px){
+      .main-container{
+          width: 70%;
+          float: left;
+      }
+      .aside-menu{
+          width: 30%;
+          float: right;
+      }
+  }
+  /*Diseñando pie de pagina*/
+  footer{
+    background-color: rgb(202, 42, 29);
+    color: whitesmoke;
+  }
+  .footer-menu ul{
+      list-style: none;
+  }
+  .footer-menu ul li a{
+      text-decoration: none;
+      color: whitesmoke;
+  }
+  @media(min-width:768px){
+      .about-us{
+          width: 35%;
+          float: left;
+      }
+      .footer-menu{
+          width: 60%;
+          float: rigth;
+          margin-left: 40rem;
+      }
+  }
+  .copyright{
+      background-color: #9f0101;
+      padding: 1.25em;
+  }
+
 

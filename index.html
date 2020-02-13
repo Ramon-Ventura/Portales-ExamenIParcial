@@ -1,8 +1,11 @@
+<!--LINK DEL REPOSITORI0: https://github.com/Ramon-Ventura/Portales-ExamenIParcial.git-->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Blog de Code-ando</title>
     <!--Quitando estilos del navegador-->
     <link rel="stylesheet" href="css/normalize.css" />
@@ -31,8 +34,9 @@
     <!--Contenedor Central-->
     <div class="container clearfix">
       <main class="main-container">
-        <article>
-          <h2>Kotlin</h2>
+        <article class="entry">
+          <h2 id="kotlin">Kotlin</h2>
+          <img src="images/kotlin.jpg" alt="lenguaje kotlin">
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga
             maxime, aut facere quo earum expedita hic repellendus, vitae eius
@@ -53,9 +57,11 @@
             praesentium in exercitationem. Deleniti, neque voluptate? Dolore,
             dicta!
           </p>
+          <p>Imagen cortesia de <a href="https://kotlinlang.org/">Kotlin</a></p>
         </article>
-        <article>
-            <h2>Firebase</h2>
+        <article class="entry">
+            <h2 id="firebase">Firebase</h2>
+            <img src="images/firebase.jpg" alt="motor de base de datos firebase">
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga
               maxime, aut facere quo earum expedita hic repellendus, vitae eius
@@ -76,9 +82,11 @@
               praesentium in exercitationem. Deleniti, neque voluptate? Dolore,
               dicta!
             </p>
+            <p>Imagen cortesia de <a href="https://firebaseopensource.com/projects/firebase/firebase-js-sdk/packages/rxfire/readme.md/">Firebase</a></p>
           </article>
-          <article>
-            <h2>Python</h2>
+          <article class="entry">
+            <h2 id="python">Python</h2>
+            <img src="images/python.jpg" alt="lenguaje python">
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga
               maxime, aut facere quo earum expedita hic repellendus, vitae eius
@@ -99,9 +107,11 @@
               praesentium in exercitationem. Deleniti, neque voluptate? Dolore,
               dicta!
             </p>
+            <p>Imagen cortesia de <a href="https://www.pinterest.com/pin/119415827597176725/">Pinterest</a></p>
           </article>
-          <article>
-            <h2>C#</h2>
+          <article class="entry">
+            <h2 id="csharp">C#</h2>
+            <img src="images/csharp.jpg" alt="lenguaje de programacion csharp">
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga
               maxime, aut facere quo earum expedita hic repellendus, vitae eius
@@ -122,9 +132,11 @@
               praesentium in exercitationem. Deleniti, neque voluptate? Dolore,
               dicta!
             </p>
+            <p>Imagen cortesia de <a href="https://www.formacionbit.com/curso-lenguaje-csharp/">Formacion Bit</a></p>
           </article>
-          <article>
-            <h2>SQL Server</h2>
+          <article class="entry">
+            <h2 id="a-sql">SQL Server</h2>
+            <img src="images/sqlserver.jpg" alt="lenguaje estructurado de sentencias">
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga
               maxime, aut facere quo earum expedita hic repellendus, vitae eius
@@ -145,20 +157,44 @@
               praesentium in exercitationem. Deleniti, neque voluptate? Dolore,
               dicta!
             </p>
+            <p>Imagen cortesia de <a href="https://www.pinterest.com/pin/590745676101468402/">Pinterest</a></p>
           </article>
       </main>
       <aside class="aside-menu">
           <section>
               <h2>Navegacion Rapida</h2>
               <ul>
-                  <li><a href="#">Kotlin</a></li>
-                  <li><a href="#">Firebase</a></li>
-                  <li><a href="#">Python</a></li>
-                  <li><a href="#">C#</a></li>
-                  <li><a href="#">SQL Server</a></li>
+                  <li><a href="#kotlin">Kotlin</a></li>
+                  <li><a href="#firebase">Firebase</a></li>
+                  <li><a href="#python">Python</a></li>
+                  <li><a href="#csharp">C#</a></li>
+                  <li><a href="#a-sql">SQL Server</a></li>
               </ul>
           </section>
       </aside>
     </div>
+    <footer class="footer-site">
+        <div class="container clearfix">
+          <section class="about-us container">
+            <h2>Sobre nosotros</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, quo
+              minima. Facere dignissimos eum optio ipsam placeat, saepe, eaque et
+              reiciendis tempora labore, facilis quaerat minus impedit accusantium
+              earum assumenda!
+            </p>
+          </section>
+          <section class="footer-menu container">
+            <h2>Siguenos en Nuestras Redes</h2>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+          </section>
+        </div>
+        <p class="copyright">
+          CODE-ANDO Todos los derechos reservadors 2020 &copy;
+        </p>
+      </footer>
   </body>
 </html>
