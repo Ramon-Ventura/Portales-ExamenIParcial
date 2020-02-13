@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  img {
+    max-width: 100%;
+  }
+  p {
+    font-size: 1em;
+  }
+  .img-logo{
+      width: 15em;
+      height: 5em;
+  }
