@@ -6,6 +6,9 @@ html {
   *:after {
     box-sizing: inherit;
   }
+  header{
+      padding: 1.25em 0;
+  }
   body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
@@ -14,8 +17,37 @@ html {
   }
   p {
     font-size: 1em;
+    text-align: justify;
   }
   .img-logo{
       width: 15em;
       height: 5em;
+      float: left;
   }
+  h1{
+      text-align: center;
+  }
+  /*Diseño del menu principal*/
+  .bar{
+      background-color: rgb(78, 173, 248);
+  }
+  .nav-main{
+      padding: 1.25em 0;
+  }
+  .nav-main a{
+      text-decoration: none;
+      color: whitesmoke;
+      display: block;
+      font-size: 1.25em;
+      text-align: center;
+      padding: 1.25em;
+  }
+  .nav-main a:hover{
+      background-color: blue;
+  }
+  @media(min-width:768px){
+      .nav-main a{
+          display: inline;
+      }
+  }
+
